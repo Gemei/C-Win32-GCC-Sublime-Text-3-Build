@@ -1,0 +1,6 @@
+{
+	"cmd": ["i686-w64-mingw32-gcc", "-o", "$file_base_name.exe", "$file"],
+	"shell" : true,
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector" : "source.csc"
+}
